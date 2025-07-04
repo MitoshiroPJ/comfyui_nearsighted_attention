@@ -1,0 +1,16 @@
+[project]
+name = "nearsighted_attention"
+description = "This node splits its self-attention Q to focus on nearby samples."
+version = "1.0.0"
+license = { text = "MIT License" }
+classifiers = [
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Repository = "https://github.com/MitoshiroPJ/comfyui_nearsighted_attention"
+
+[tool.comfy]
+PublisherId = "mtsr"
+DisplayName = "ComfyUI Nearsighted Attention"
+Icon = ""
